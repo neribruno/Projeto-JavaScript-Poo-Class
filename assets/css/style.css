@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'IM Fell Great Primer SC', serif;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('../images/origbig.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    height: 100px;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    border-bottom:3px solid #000 ;
+    border-radius: 7px;
+}
+
+.choose {
+    display: flex;
+    top:50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+#changeNameButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 15px 8px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid #ffff00;
+    background-color: #ccc;
+    color: #666;
+    border-radius: 10px;
+}
+
+#changeNameButton:hover {
+    border: 1px solid #ccc;
+    background-color: #ffff00;
+}
+
+.choose input {
+    margin-top: 3px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.fight-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 250px;
+}
+
+#char,
+#mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    gap: 20px;
+}
+
+.char-portrait,
+.mob-portrait {
+    padding: 20px;
+}
+
+.char-portrait img,
+.mob-portrait img {
+    height: 150px;
+
+}
+
+.life-bar {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 23px;
+
+}
+
+.char-bar,
+.mob-bar {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 400px;
+    height: 28px;
+    background-color: #ff0000;
+    border-radius: 20px;
+}
+
+.plate {
+    font-size: 2rem;
+}
+
+.attack-button {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #ffff00;
+    background-color: #ccc;
+}
+
+.attack-button:hover {
+    border: 1px solid #ccc;
+    background-color: #ffff00;
+}
+
+.log {
+    padding: 25px;
+    list-style: none;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #ffff00;
+    background-image: url('../images/fundo-de-papel-grunge-vintage.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    position: relative;
+    top: -400px;
+    left: -5px;
+    overflow-y: scroll;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Medieval duel</title>
+</head>
+
+<body>
+    <header>
+        <h1>    Projeto JavaScript: POO + Class 
+        </h1>
+    </header>
+
+    <div class="choose">
+        <div class="names">
+            <input type="text" id="characterNameInput" placeholder="Digite o nome do personagem">
+<button id="changeNameButton">DEFINIR NOME</button>
+        </div>
+    </div>
+
+    <main class="fight-area">
+
+        <div id="char">
+            <div class="char-portrait">
+                <img src="./assets/images/Icon1.png" alt="asset hero">
+            </div>
+            <div class="life-bar">
+                <div class="char-bar" style="width: 10%;">-</div>
+            </div>
+            <div class="plate">
+                <div class="char-name">Hero</div>
+                <div class="char-hp"></div>
+            </div>
+            <button class="attack-button">Atacar</button>
+        </div>
+
+
+
+        <div id="mob">
+            <div class="mob-portrait"><img src="./assets/images/goblin1.png" alt="asset pixel art goblin"></div>
+            <div class="life-bar">
+                <div class="mob-bar" style="width: 10%;">-</div>
+            </div>
+            <div class="plate">
+                <div class="mob-name">mob</div>
+                <div class="mob-hp"></div>
+            </div>
+            <button class="attack-button">Atacar</button>
+        </div>
+    </main>
+
+
+    <div class="log"></div>
+
+<footer>Feito por: Bruno Neri | brunoneri.ds@gmail.com</footer>
+    <script src="./assets/js/classes.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
